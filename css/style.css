@@ -17,13 +17,14 @@ header {
 }
 
 header.active {
-    background-color: rgba(157, 154, 153, .8);
+    background-color: rgba(0, 0, 0);
     position: fixed;
     z-index: 90;
 }
 
 header.active nav .nav-link {
     margin: 10px 0 10px 40px;
+    font-size: 18px;
 }
 
 header.active nav .nav-link:hover {
